@@ -1,6 +1,6 @@
+import 'package:ecommerce/presentation/state%20holders/otp_timer_controller.dart';
 import 'package:ecommerce/presentation/ui/screens/auth/complete_profile_screen.dart';
-import 'package:ecommerce/presentation/widgets/crafty_bay_logo_widget.dart';
-import 'package:ecommerce/state%20holders/otp_timer_controller.dart';
+import 'package:ecommerce/presentation/ui/widgets/crafty_bay_logo_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

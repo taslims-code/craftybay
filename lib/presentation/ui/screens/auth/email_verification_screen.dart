@@ -1,6 +1,6 @@
 import 'package:ecommerce/presentation/ui/screens/auth/OTP_verification_screen.dart';
 import 'package:ecommerce/presentation/ui/utility/app_colors.dart';
-import 'package:ecommerce/presentation/widgets/crafty_bay_logo_widget.dart';
+import 'package:ecommerce/presentation/ui/widgets/crafty_bay_logo_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

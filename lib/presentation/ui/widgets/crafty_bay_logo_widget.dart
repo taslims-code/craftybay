@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-import '../ui/utility/image_assets.dart';
+import '../utility/image_assets.dart';
 
 class CraftyBayLogoWidget extends StatelessWidget {
   const CraftyBayLogoWidget({

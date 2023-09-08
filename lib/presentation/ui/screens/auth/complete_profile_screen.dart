@@ -1,5 +1,5 @@
 import 'package:ecommerce/presentation/ui/screens/cart_screen.dart';
-import 'package:ecommerce/presentation/widgets/crafty_bay_logo_widget.dart';
+import 'package:ecommerce/presentation/ui/widgets/crafty_bay_logo_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

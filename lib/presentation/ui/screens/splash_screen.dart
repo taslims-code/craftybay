@@ -2,7 +2,7 @@ import 'package:ecommerce/presentation/ui/screens/auth/email_verification_screen
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../widgets/crafty_bay_logo_widget.dart';
+import '../widgets/crafty_bay_logo_widget.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
