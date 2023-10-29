@@ -1,11 +1,11 @@
 # CraftyBay 
 
-A Flutter Ecommerce app Design.
+A Flutter Ecommerce app.
 
 ## Project Structure 
 
 .
-└── craftybay/
+└── lib/
     ├── application
     ├── data
     └── presentation/

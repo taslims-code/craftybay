@@ -2,12 +2,12 @@ import 'dart:async';
 
 import 'package:get/get.dart';
 
-class OTPTimerController extends GetxController {
+class OtpTimerController extends GetxController {
   Timer? _timer;
   int remainingSeconds = 1;
   final time = '0'.obs;
 
-  startTimer() => _startTimer(10);
+  startTimer() => _startTimer(120);
 
   @override
   void onClose() {
