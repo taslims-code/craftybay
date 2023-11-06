@@ -15,7 +15,6 @@ import '../widgets/category_card.dart';
 import '../widgets/home_slider.dart';
 import '../widgets/product_card.dart';
 import '../widgets/section_header.dart';
-import 'profile_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -38,9 +37,23 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
             const Spacer(),
             CircularIconButton(
+              icon: Icons.light_mode_outlined,
+              onTap: () {
+                // themeModeController.toggleThemeMode();
+                if (Get.isDarkMode) {
+                  Get.changeThemeMode(ThemeMode.light);
+                } else {
+                  Get.changeThemeMode(ThemeMode.dark);
+                }
+              },
+            ),
+            const SizedBox(
+              width: 8,
+            ),
+            CircularIconButton(
               icon: Icons.person,
               onTap: () {
-                Get.to(() => const ProfileScreen());
+                // Get.to(() => const ProfileScreen());
               },
             ),
             const SizedBox(

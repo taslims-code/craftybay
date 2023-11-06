@@ -4,7 +4,7 @@ import 'dart:developer';
 import 'package:ecommerce/data/models/network_response.dart';
 import 'package:ecommerce/presentation/state%20holders/auth_controller.dart';
 import 'package:ecommerce/presentation/ui/screens/auth/email_verification_screen.dart';
-import 'package:get/get.dart' as getRouter;
+import 'package:get/get.dart' as get_router;
 import 'package:http/http.dart';
 
 class NetworkCaller {
@@ -69,6 +69,6 @@ class NetworkCaller {
   }
 
   static Future<void> gotoLogin() async {
-    getRouter.Get.offAll(() => const EmailVerificationScreen());
+    get_router.Get.offAll(() => const EmailVerificationScreen());
   }
 }

@@ -5,6 +5,7 @@ import 'package:ecommerce/presentation/state%20holders/otp_verification_controll
 import 'package:ecommerce/presentation/ui/screens/auth/complete_profile_screen.dart';
 import 'package:ecommerce/presentation/ui/screens/main_bottom_nav_screen.dart';
 import 'package:ecommerce/presentation/ui/widgets/crafty_bay_logo_widget.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:pinput/pinput.dart';
@@ -65,7 +66,9 @@ class _OTPVerificationScreenState extends State<OTPVerificationScreen> {
                   length: 6,
                   controller: _otpVerificationTEController,
                   onCompleted: (pin) {
-                    print(pin);
+                    if (kDebugMode) {
+                      print(pin);
+                    }
                   },
                 ),
                 /*Row(
